@@ -1,0 +1,50 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: antiquewhite;
+}
+
+h2 {
+    user-select: none;
+    font-family: 'Mochiy Pop One', sans-serif;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    min-height: 100vh;
+}
+
+.grid {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+
+    width: 550px;
+    height: 450px;
+}
+
+.square {
+    height: 150px;
+    width: 150px;
+    margin: 4px;
+    cursor: pointer;
+    background-color: #f9f871;
+    box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+    border-radius: 23px 23px 23px 23px;
+    -moz-border-radius: 23px 23px 23px 23px;
+    -webkit-border-radius: 23px 23px 23px 23px;
+}
+
+.mole {
+    background-image: url("../images/mole.jpg");
+    background-size: cover;
+    transform: scale(1.1);
+    transition-duration: 500ms;
+}
