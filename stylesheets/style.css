@@ -4,7 +4,7 @@
 }
 
 body {
-    background-color: antiquewhite;
+    background-color: powderblue;
 }
 
 h2 {
@@ -35,7 +35,7 @@ h2 {
     width: 150px;
     margin: 4px;
     cursor: pointer;
-    background-color: #f9f871;
+    background-color: burlywood;
     box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
     border-radius: 23px 23px 23px 23px;
     -moz-border-radius: 23px 23px 23px 23px;
@@ -43,7 +43,7 @@ h2 {
 }
 
 .mole {
-    background-image: url("../images/mole.jpg");
+    background-image: url("../images/cat-chase-heart.gif");
     background-size: cover;
     transform: scale(1.1);
     transition-duration: 500ms;

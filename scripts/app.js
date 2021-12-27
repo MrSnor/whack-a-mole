@@ -1,4 +1,4 @@
-alert("smash the mole to earn points")
+alert("tap the cat to earn points")
 
 const squares = document.querySelectorAll(".square")
 const mole = document.querySelector(".mole")
